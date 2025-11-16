@@ -17,9 +17,6 @@
     align-items: center;
     color: #f2fafd;
 }
-.logo1 svg{
-    color: #f2fafd;
-}
 .logo1 i{
     font-size: 50px;
 }
@@ -42,6 +39,7 @@
 .trai
 {
     position: absolute;
+    
     left: 5px;
     top:50%;
     transform:translateY(-50%)
@@ -66,12 +64,6 @@
     align-items: center;
     font-size: 25px;
 }
-.add{
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    font-size: 25px;
-}
 .right ul li a {
     text-decoration: none;
 
@@ -88,9 +80,6 @@
     color: #f2fafd;
 }
 .dn{
-    color: #f2fafd;
-}
-.ad{
     color: #f2fafd;
 }
 
@@ -112,51 +101,16 @@
 .ten1 h3{
     margin-bottom: 50px;
 }
-.content img{
-    height: 100%;
-    width:100%;
-}
-.button{
-    display: flex;
-    justify-content: space-between;
-    gap:20px;
-    flex-wrap: wrap;
-    margin-top: 5%;
 
 
-}
-.button img{
-    width: 250px;
-    height: 300px;
-}
-.book{
-    position: relative;
-}
-.book button {
-  position: absolute;
-  bottom: 310px;            
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 20px;
-  padding: 4px 10px;
-  border-radius: 15px;
-  width: 80px;
-  height: 40px;
-}
-.ten2 h2{
-    margin-bottom: 20px;
-}
-.book button:hover {
-  background-color: beige;
-  color: black;
-}
+
 .footer{
     background-color: #75a7a8;
     display: flex;
     padding-right: 30px;
     padding-left: 30px;
     justify-content: space-between;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .menu3 {
     color: aliceblue;
@@ -167,6 +121,50 @@
 .content{
     background-color: #ffffff;
 }
-.ten3{
-    margin-right: 20%;
+.contentgh{
+    max-width: 70%;
+    margin: auto;
+    background-color: #92daf7;
 }
+.book img{
+    width: 70px;
+    height: 100px;
+}
+.ghtren .book{
+    display: flex;
+}
+.ghtren .trenbp{
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.ghduoi .book{
+    display: flex;
+}
+.ghduoi .duoibp{
+    padding-left: 30%;
+}
+.trenbp p{
+    margin: 3%;
+}
+.ghduoi{
+    padding-left: 20%;
+}
+.ghtren{
+    margin-bottom: 5%;
+    padding-left: 20%;
+}
+.duoibp button{
+    border-radius: 13px;
+    height: 30px;
+    width: 80px;
+}
+.ten h4{
+    padding-left: 30px;
+}
+
+
+
